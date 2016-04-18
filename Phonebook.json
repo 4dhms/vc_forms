@@ -1,0 +1,545 @@
+{
+	"_formPath": "Phonebook",
+	"formName": "Phonebook",
+	"_width": 0,
+	"_height": 0,
+	"_numPages": 0,
+	"_fixedWidth": false,
+	"_fixedHeight": false,
+	"windowTitle": "",
+	"events": [
+		{
+			"event": 1,
+			"event-label": "On Load"
+		},
+		{
+			"event": 2,
+			"event-label": ""
+		},
+		{
+			"event": 3,
+			"event-label": "On Validate"
+		},
+		{
+			"event": 4,
+			"event-label": "On Clicked"
+		},
+		{
+			"event": 5,
+			"event-label": "On Header"
+		},
+		{
+			"event": 6,
+			"event-label": "On Printing Break"
+		},
+		{
+			"event": 7,
+			"event-label": "On Printing Footer"
+		},
+		{
+			"event": 8,
+			"event-label": "On Display Detail"
+		},
+		{
+			"event": 9,
+			"event-label": ""
+		},
+		{
+			"event": 10,
+			"event-label": "On Outside Call"
+		},
+		{
+			"event": 13,
+			"event-label": "On Double Clicked"
+		},
+		{
+			"event": 16,
+			"event-label": "On Drop"
+		},
+		{
+			"event": 18,
+			"event-label": "On Menu Selected"
+		},
+		{
+			"event": 19,
+			"event-label": "On Plug in Area"
+		},
+		{
+			"event": 20,
+			"event-label": "On Data Change"
+		},
+		{
+			"event": 21,
+			"event-label": "On Drag Over"
+		},
+		{
+			"event": 23,
+			"event-label": "On Printing Detail"
+		},
+		{
+			"event": 25,
+			"event-label": "On Open Detail"
+		},
+		{
+			"event": 26,
+			"event-label": "On Close Detail"
+		},
+		{
+			"event": 27,
+			"event-label": "On Timer"
+		},
+		{
+			"event": 28,
+			"event-label": "On After Keystroke"
+		},
+		{
+			"event": 40,
+			"event-label": "On Load Record"
+		},
+		{
+			"event": 45,
+			"event-label": "On After Edit"
+		},
+		{
+			"event": 46,
+			"event-label": "On Begin Drag Over"
+		},
+		{
+			"event": 54,
+			"event-label": "On bound variable change"
+		},
+		{
+			"event": 55,
+			"event-label": "On Mac toolbar button"
+		},
+		{
+			"event": 56,
+			"event-label": "On Page Change"
+		},
+		{
+			"event": 59,
+			"event-label": "On Picture Scroll"
+		}
+	],
+	"fixedWidth": false,
+	"minWidth": 0,
+	"maxWidth": 32767,
+	"fixedHeight": false,
+	"minHeight": 0,
+	"maxHeight": 32767,
+	"objects": {
+		"Tab Control": {
+			"objectName": "Tab Control",
+			"type": 37,
+			"type_label": "Object type tab control",
+			"variableName": "asUsers",
+			"variableType": 18,
+			"variableType_label": "Text array",
+			"action": "15",
+			"action_label": "Object No standard action",
+			"autoSpellcheck": false,
+			"width": 648,
+			"height": 333,
+			"borderLineStyle": 0,
+			"borderLineStyle_label": "Border None",
+			"contextMenu": false,
+			"left": 7,
+			"top": 9,
+			"right": 655,
+			"bottom": 342,
+			"draggable": false,
+			"automaticDrag": false,
+			"droppable": false,
+			"automaticDrop": false,
+			"enabled": true,
+			"enterable": false,
+			"events": [
+				{
+					"event": 4,
+					"event-label": "On Clicked"
+				},
+				{
+					"event": 19,
+					"event-label": "On Plug in Area"
+				},
+				{
+					"event": 20,
+					"event-label": "On Data Change"
+				}
+			],
+			"filter": "",
+			"focusRectangleInvisible": false,
+			"font": "Verdana",
+			"fontSize": 10,
+			"fontStyle": 1,
+			"format": "",
+			"helpTip": "",
+			"horizontalAlignment": 1,
+			"horizontalAlignment_label": "Align default",
+			"indicatorType": 0,
+			"indicatorType_label": "",
+			"keyboardLayout": "",
+			"listName": "",
+			"choiceList": 0,
+			"requiredList": 0,
+			"excludedList": 0,
+			"maximumValue": 0,
+			"minimumValue": 0,
+			"placeholder": "",
+			"printFrame": false,
+			"subformPrintFrame": 0,
+			"subformPrintFrame_label": "",
+			"horizontalSizing": 0,
+			"horizontalSizing_label": "Resize horizontal none",
+			"verticalSizing": 0,
+			"verticalSizing_label": "Resize vertical none",
+			"foregroundColor": -1,
+			"foregroundColor_label": "Foreground color",
+			"backgroundColor": -2,
+			"backgroundColor_label": "Background color",
+			"altBackgroundColor": 0,
+			"altBackgroundColor_hex": "0x00000000",
+			"horizontalScrollBar": false,
+			"verticalScrollBar": false,
+			"shortcutKey": "",
+			"shortcutModifiers": 0,
+			"styleSheet": "Labels",
+			"orientation": 0,
+			"threeStates": false,
+			"title": "",
+			"verticalAlignment": 1,
+			"verticalAlignment_label": "Align default",
+			"visible": true
+		},
+		"List Box": {
+			"objectName": "List Box",
+			"type": 7,
+			"type_label": "Object type listbox",
+			"variableName": "afListBox1",
+			"variableType": 22,
+			"variableType_label": "Boolean array",
+			"action": "0",
+			"action_label": "Object No standard action",
+			"autoSpellcheck": false,
+			"width": 0,
+			"height": 0,
+			"borderLineStyle": 6,
+			"borderLineStyle_label": "Border System",
+			"contextMenu": false,
+			"left": 98,
+			"top": 41,
+			"right": 628,
+			"bottom": 327,
+			"draggable": false,
+			"automaticDrag": false,
+			"droppable": false,
+			"automaticDrop": false,
+			"enabled": true,
+			"enterable": false,
+			"events": [
+				{
+					"event": 13,
+					"event-label": "On Double Clicked"
+				},
+				{
+					"event": 20,
+					"event-label": "On Data Change"
+				},
+				{
+					"event": 30,
+					"event-label": "On After Sort"
+				},
+				{
+					"event": 31,
+					"event-label": "On Selection Change"
+				},
+				{
+					"event": 32,
+					"event-label": "On Column Moved"
+				},
+				{
+					"event": 34,
+					"event-label": "On Row Moved"
+				}
+			],
+			"filter": "",
+			"focusRectangleInvisible": false,
+			"font": ".Helvetica Neue DeskInterface",
+			"fontSize": 12,
+			"fontStyle": 0,
+			"format": "",
+			"helpTip": "",
+			"horizontalAlignment": 1,
+			"horizontalAlignment_label": "Align default",
+			"indicatorType": 0,
+			"indicatorType_label": "",
+			"keyboardLayout": "",
+			"listName": "",
+			"choiceList": 0,
+			"requiredList": 0,
+			"excludedList": 0,
+			"maximumValue": 0,
+			"minimumValue": 0,
+			"placeholder": "",
+			"printFrame": false,
+			"subformPrintFrame": 0,
+			"subformPrintFrame_label": "",
+			"horizontalSizing": 0,
+			"horizontalSizing_label": "Resize horizontal none",
+			"verticalSizing": 0,
+			"verticalSizing_label": "Resize vertical none",
+			"foregroundColor": -1,
+			"foregroundColor_label": "Foreground color",
+			"backgroundColor": -1,
+			"backgroundColor_label": "Foreground color",
+			"altBackgroundColor": -1,
+			"altBackgroundColor_label": "Foreground color",
+			"horizontalScrollBar": false,
+			"verticalScrollBar": false,
+			"shortcutKey": "",
+			"shortcutModifiers": 0,
+			"styleSheet": "__automatic__",
+			"orientation": 0,
+			"threeStates": false,
+			"title": "",
+			"verticalAlignment": 1,
+			"verticalAlignment_label": "Align default",
+			"visible": true
+		},
+		"Button": {
+			"objectName": "Button",
+			"type": 15,
+			"type_label": "Object type push button",
+			"variableName": "bExcel",
+			"variableType": 9,
+			"variableType_label": "Is LongInt",
+			"action": "0",
+			"action_label": "Object No standard action",
+			"autoSpellcheck": false,
+			"width": 51,
+			"height": 16,
+			"borderLineStyle": 0,
+			"borderLineStyle_label": "Border None",
+			"contextMenu": false,
+			"left": 22,
+			"top": 41,
+			"right": 82,
+			"bottom": 58,
+			"draggable": false,
+			"automaticDrag": false,
+			"droppable": false,
+			"automaticDrop": false,
+			"enabled": true,
+			"enterable": true,
+			"events": [
+				{
+					"event": 4,
+					"event-label": "On Clicked"
+				},
+				{
+					"event": 19,
+					"event-label": "On Plug in Area"
+				},
+				{
+					"event": 20,
+					"event-label": "On Data Change"
+				}
+			],
+			"filter": "",
+			"focusRectangleInvisible": false,
+			"font": "Verdana",
+			"fontSize": 9,
+			"fontStyle": 1,
+			"format": "Excel",
+			"helpTip": "",
+			"horizontalAlignment": 1,
+			"horizontalAlignment_label": "Align default",
+			"indicatorType": 0,
+			"indicatorType_label": "",
+			"keyboardLayout": "",
+			"listName": "",
+			"choiceList": 0,
+			"requiredList": 0,
+			"excludedList": 0,
+			"maximumValue": 0,
+			"minimumValue": 0,
+			"placeholder": "",
+			"printFrame": false,
+			"subformPrintFrame": 0,
+			"subformPrintFrame_label": "",
+			"horizontalSizing": 0,
+			"horizontalSizing_label": "Resize horizontal none",
+			"verticalSizing": 0,
+			"verticalSizing_label": "Resize vertical none",
+			"foregroundColor": -1,
+			"foregroundColor_label": "Foreground color",
+			"backgroundColor": -2,
+			"backgroundColor_label": "Background color",
+			"altBackgroundColor": 0,
+			"altBackgroundColor_hex": "0x00000000",
+			"horizontalScrollBar": false,
+			"verticalScrollBar": false,
+			"shortcutKey": "",
+			"shortcutModifiers": 0,
+			"styleSheet": "Labels",
+			"orientation": 0,
+			"threeStates": false,
+			"title": "Excel",
+			"verticalAlignment": 1,
+			"verticalAlignment_label": "Align default",
+			"visible": true
+		},
+		"Button1": {
+			"objectName": "Button1",
+			"type": 15,
+			"type_label": "Object type push button",
+			"variableName": "bAdd",
+			"variableType": 9,
+			"variableType_label": "Is LongInt",
+			"action": "0",
+			"action_label": "Object No standard action",
+			"autoSpellcheck": false,
+			"width": 47,
+			"height": 16,
+			"borderLineStyle": 0,
+			"borderLineStyle_label": "Border None",
+			"contextMenu": false,
+			"left": 22,
+			"top": 71,
+			"right": 82,
+			"bottom": 88,
+			"draggable": false,
+			"automaticDrag": false,
+			"droppable": false,
+			"automaticDrop": false,
+			"enabled": true,
+			"enterable": true,
+			"events": [
+				{
+					"event": 4,
+					"event-label": "On Clicked"
+				},
+				{
+					"event": 19,
+					"event-label": "On Plug in Area"
+				},
+				{
+					"event": 20,
+					"event-label": "On Data Change"
+				}
+			],
+			"filter": "",
+			"focusRectangleInvisible": false,
+			"font": "Verdana",
+			"fontSize": 9,
+			"fontStyle": 1,
+			"format": "New",
+			"helpTip": "",
+			"horizontalAlignment": 1,
+			"horizontalAlignment_label": "Align default",
+			"indicatorType": 0,
+			"indicatorType_label": "",
+			"keyboardLayout": "",
+			"listName": "",
+			"choiceList": 0,
+			"requiredList": 0,
+			"excludedList": 0,
+			"maximumValue": 0,
+			"minimumValue": 0,
+			"placeholder": "",
+			"printFrame": false,
+			"subformPrintFrame": 0,
+			"subformPrintFrame_label": "",
+			"horizontalSizing": 0,
+			"horizontalSizing_label": "Resize horizontal none",
+			"verticalSizing": 0,
+			"verticalSizing_label": "Resize vertical none",
+			"foregroundColor": -1,
+			"foregroundColor_label": "Foreground color",
+			"backgroundColor": -2,
+			"backgroundColor_label": "Background color",
+			"altBackgroundColor": 0,
+			"altBackgroundColor_hex": "0x00000000",
+			"horizontalScrollBar": false,
+			"verticalScrollBar": false,
+			"shortcutKey": "",
+			"shortcutModifiers": 0,
+			"styleSheet": "Labels",
+			"orientation": 0,
+			"threeStates": false,
+			"title": "New",
+			"verticalAlignment": 1,
+			"verticalAlignment_label": "Align default",
+			"visible": true
+		},
+		"Button2": {
+			"objectName": "Button2",
+			"type": 15,
+			"type_label": "Object type push button",
+			"variableName": "bCancel",
+			"variableType": 9,
+			"variableType_label": "Is LongInt",
+			"action": "1",
+			"action_label": "Object No standard action",
+			"autoSpellcheck": false,
+			"width": 52,
+			"height": 16,
+			"borderLineStyle": 0,
+			"borderLineStyle_label": "Border None",
+			"contextMenu": false,
+			"left": 22,
+			"top": 101,
+			"right": 82,
+			"bottom": 118,
+			"draggable": false,
+			"automaticDrag": false,
+			"droppable": false,
+			"automaticDrop": false,
+			"enabled": true,
+			"enterable": true,
+			"filter": "",
+			"focusRectangleInvisible": false,
+			"font": "Verdana",
+			"fontSize": 9,
+			"fontStyle": 1,
+			"format": "Close",
+			"helpTip": "",
+			"horizontalAlignment": 1,
+			"horizontalAlignment_label": "Align default",
+			"indicatorType": 0,
+			"indicatorType_label": "",
+			"keyboardLayout": "",
+			"listName": "",
+			"choiceList": 0,
+			"requiredList": 0,
+			"excludedList": 0,
+			"maximumValue": 0,
+			"minimumValue": 0,
+			"placeholder": "",
+			"printFrame": false,
+			"subformPrintFrame": 0,
+			"subformPrintFrame_label": "",
+			"horizontalSizing": 0,
+			"horizontalSizing_label": "Resize horizontal none",
+			"verticalSizing": 0,
+			"verticalSizing_label": "Resize vertical none",
+			"foregroundColor": -1,
+			"foregroundColor_label": "Foreground color",
+			"backgroundColor": -2,
+			"backgroundColor_label": "Background color",
+			"altBackgroundColor": 0,
+			"altBackgroundColor_hex": "0x00000000",
+			"horizontalScrollBar": false,
+			"verticalScrollBar": false,
+			"shortcutKey": "",
+			"shortcutModifiers": 0,
+			"styleSheet": "Labels",
+			"orientation": 0,
+			"threeStates": false,
+			"title": "Close",
+			"verticalAlignment": 1,
+			"verticalAlignment_label": "Align default",
+			"visible": true
+		}
+	}
+}
